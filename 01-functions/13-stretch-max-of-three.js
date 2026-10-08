@@ -8,10 +8,23 @@
 
 function maxOfTwo(a, b) {
   // your code here
+
+  if (a>b){
+    return a;
+  } else {
+    return b;
+  }
+
 }
 
 function maxOfThree(a, b, c) {
   // your code here
+
+  if (a>b && a>c){
+    return a;
+  } else if (b>a && b>c) {
+    return b;
+  } else { return c;}
 }
 
 // ----- Checks (do not edit) -----
