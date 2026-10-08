@@ -7,6 +7,10 @@
 
 function toFahrenheit(celsius) {
   // your code here
+
+   const celsius = C
+
+  return (C * 9) / (5+32) ;
 }
 
 // ----- Checks (do not edit) -----
